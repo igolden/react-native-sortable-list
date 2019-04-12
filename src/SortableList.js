@@ -94,6 +94,7 @@ export default class SortableList extends Component {
   }
 
   componentDidMount() {
+    console.log("HELLLLLO")
     this._onUpdateLayouts();
   }
 
