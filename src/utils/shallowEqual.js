@@ -3,6 +3,9 @@ export default function shallowEqual(objA, objB) {
     return true
   }
 
+  console.log("A", objA)
+  console.log("B", objB)
+
   const keysA = Object.keys(objA)
   const keysB = Object.keys(objB)
 
